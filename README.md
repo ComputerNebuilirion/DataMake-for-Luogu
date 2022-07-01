@@ -15,12 +15,27 @@ data.h使用C++编写。所以，在此之前，您应该先配置好C/C++环境
 
 ## 一、安装
 
-1.下载data.h头文件，将其放在电脑环境变量对应的MingW中，使之能被编译器识别（具体方法请自行bdfs）；
+（1）手动下载
 
-2.引用这个头文件，如果编译通过，说明安装正确。（接下来会开发自动安装程序install.exe）
+1.下载data.h头文件，将其放在电脑环境变量对应的MingW的include中，使之能被编译器识别（具体方法请自行bdfs）；
+
+2.引用这个头文件，如果编译通过，说明安装正确。
 ```
 #include "data.h"
 ```
+
+（2）自动下载
+
+1.下载install.exe程序，点开运行；
+
+2.输入自己编辑器对应的MingW\bin的路径，如：
+
+```
+C:\Users\stu-36\Desktop\DataMake-for-Luogu-main\MinGW32\bin
+```
+
+需要注意的是由于系统权限，install.exe暂时无法将data.h安装在windows的program files等系统文件夹里面。
+
 ## 二、编写
 
 该项目所用结构体名字为```DMake```.
