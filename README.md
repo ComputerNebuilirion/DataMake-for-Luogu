@@ -96,7 +96,7 @@ struct Import{
 该参数为导入数据点文件结构体。其中，```INSOURCE```表示为```.in```文件所在路径，
 ```OUTSOURCE```表示为```.out```文件所在路径。
 
-设置请用$C++String$类，例如：
+设置请用C++String类，例如：
 ```
 package.source[1].INSOURCE = ("233.in"),
 package.source[1].OUTSOURCE = ("233.out");
